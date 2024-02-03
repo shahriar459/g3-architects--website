@@ -88,3 +88,35 @@ color: #424242;
         padding: 45px;
     }
 }
+
+
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.temeas-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1.5rem;
+}
+.temes-conten{
+    padding-right:70px ;
+    padding-left: 70px;
+}
+.temes-title{
+    font-size: 3rem;
+    
+}
+.temes-title .Quick{
+    color: #727272;
+    font-weight: 500;
+}
+.temes-title .text-Features{
+    color: #ff900e;
+    font-weight: 700;
+}
