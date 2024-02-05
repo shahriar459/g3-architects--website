@@ -91,6 +91,7 @@ main{
 .temes-conten{
     padding-right:70px ;
     padding-left: 70px;
+
 }
 .temes-title{
     font-size: 3rem;
@@ -126,7 +127,21 @@ main{
 .fact-card-container .card-title{
     font-weight: 600;
     font-size: 1.25rem;
-    margin-top: 2px;
+    margin-top: px;
+
+}
+.sponcers{
+    text-align: center;
+}
+.sponcers-img-contener{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 45px;
+    gap: 35px;
+}
+.sponcers-img-contener img {
+    width: 165px;
 
 
 }
@@ -150,7 +165,9 @@ main{
         padding: 20px;
     }
     nav,
-    .temeas-container
+    .temeas-container,
+    .fact-card-container,
+    .sponcers-img-contener
     {
         flex-direction: column;
     }
@@ -158,13 +175,30 @@ main{
     .teams-img-container{
         grid-template-columns: 1fr;
     }
-    
+    .temes-conten,.fact-card-container {
+        padding-right:20px ;
+        padding-left: 20px;
+}
+.fact-card-container{
+    gap: 15px;
+}
+
+
+
 
 }
+
+
+
+
+
+
+
 @media screen and (min-width:576px) and (max-width:992px) {
     
     nav,
-    .temeas-container
+    .temeas-container,
+    .sponcers-img-contener
     {
         flex-direction: column;
     }
