@@ -206,11 +206,13 @@ margin-left: 100px;
 }
 .responsive-logo{
     background-color:tomato;
-    width: 100%;
+    width: 95%;
     padding: 25px;
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+    gap: 20px;
    
 }
 
