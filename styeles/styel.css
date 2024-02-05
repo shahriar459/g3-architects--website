@@ -110,6 +110,15 @@ main{
     margin-top: 130px;
     gap: 100px;
 }
+.feture-img img {
+height: 90%;
+margin-left: 90px;
+
+}
+
+
+
+
 .feture-conten .card{
     padding: 30px;
     margin-bottom: 20px;
@@ -145,10 +154,18 @@ main{
     color: #fff;
     width: 340px;
     padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
 
 }
 .ten-years-bage h2 {
     font-size: 4rem;
+    margin: 0;
+
+}
+.ten-years-bage p {
+    font-size: 1.5rem;
 
 }
 
@@ -204,6 +221,7 @@ main{
     }
     nav,
     .temeas-container,
+    .features,
     .fact-card-container,
     .sponcers-img-contener
     {
@@ -213,6 +231,17 @@ main{
     .teams-img-container{
         grid-template-columns: 1fr;
     }
+    .feture-img img{
+        width: 100%;
+        margin: 0;
+    }
+    .ten-years-bage{
+        position: static;
+        max-width: 500px;
+    }
+
+
+
     .temes-conten,.fact-card-container {
         padding-right:20px ;
         padding-left: 20px;
@@ -235,6 +264,7 @@ main{
 @media screen and (min-width:576px) and (max-width:992px) {
     
     nav,
+    .features,
     .temeas-container,
     .sponcers-img-contener
     {
