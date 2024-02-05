@@ -111,9 +111,13 @@ main{
     gap: 100px;
 }
 .feture-img img {
-height: 90%;
-margin-left: 90px;
+height: 100%;
+margin-left: 100px;
 
+}
+.feture-img{
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -200,6 +204,15 @@ margin-left: 90px;
 
 
 }
+.responsive-logo{
+    background-color:tomato;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
 
 
 
@@ -237,7 +250,7 @@ margin-left: 90px;
     }
     .ten-years-bage{
         position: static;
-        max-width: 500px;
+        /* max-width: 500px; */
     }
 
 
